@@ -1,0 +1,14 @@
+diff --git a/subtitld/interface/player.py b/subtitld/interface/player.py
+index 8f8f73356d44..28eccf7403f9 100644
+--- a/subtitld/interface/player.py
++++ b/subtitld/interface/player.py
+@@ -69,9 +69,6 @@ class MpvWidget(QOpenGLWidget):
+             # "gpu-context": "x11egl"
+         }
+ 
+-        if not ACTUAL_OS == 'windows':
+-            options["gpu-hwdec-interop"] = "vaapi-egl"
+-
+         for key, value in options.items():
+             setattr(widget.mpv, key, value)
+ 

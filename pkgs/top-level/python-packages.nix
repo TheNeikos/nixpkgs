@@ -2184,6 +2184,8 @@ self: super: with self; {
 
   class-doc = callPackage ../development/python-modules/class-doc { };
 
+  clean-text = callPackage ../development/python-modules/clean-text { };
+
   cliche = callPackage ../development/python-modules/cliche { };
 
   click = callPackage ../development/python-modules/click { };
@@ -4137,6 +4139,8 @@ self: super: with self; {
   ffmpeg-progress-yield = callPackage ../development/python-modules/ffmpeg-progress-yield { };
 
   ffmpy = callPackage ../development/python-modules/ffmpy { };
+
+  ffms2 = callPackage ../development/python-modules/ffms2 { };
 
   fhir-py = callPackage ../development/python-modules/fhir-py { };
 
@@ -6647,6 +6651,8 @@ self: super: with self; {
   librespot = callPackage ../development/python-modules/librespot { };
 
   libretranslate = callPackage ../development/python-modules/libretranslate { };
+
+  libretranslatepy = callPackage ../development/python-modules/libretranslatepy { };
 
   librosa = callPackage ../development/python-modules/librosa { };
 
@@ -15191,6 +15197,8 @@ self: super: with self; {
   trampoline = callPackage ../development/python-modules/trampoline { };
 
   transaction = callPackage ../development/python-modules/transaction { };
+
+  translate = callPackage ../development/python-modules/translate { };
 
   transformers = callPackage ../development/python-modules/transformers { };
 
